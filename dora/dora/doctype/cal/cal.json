@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-21 20:20:27.105264",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "value1",
+  "value2",
+  "opration",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "value1",
+   "fieldtype": "Float",
+   "label": "Value1"
+  },
+  {
+   "fieldname": "value2",
+   "fieldtype": "Float",
+   "label": "Value2"
+  },
+  {
+   "fieldname": "opration",
+   "fieldtype": "Select",
+   "label": "Opration",
+   "options": "+\n-\n*\n/"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Float",
+   "label": "Result",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 20:45:45.968985",
+ "modified_by": "Administrator",
+ "module": "dora",
+ "name": "cal",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

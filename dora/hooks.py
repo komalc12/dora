@@ -114,15 +114,15 @@ app_license = "MIT"
 
 # Document Events
 # ---------------
-# Hook on document methods and events
+# dora/hooks.py
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+# Document Events
+# ---------------
+doc_events = {
+    "ToDo": {
+        "on_insert": "dora.todo_custom.on_insert"  # Link to your custom method
+    }
+}
 
 # Scheduled Tasks
 # ---------------
@@ -213,3 +213,6 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"dora.auth.validate"
 # ]
+
+# Include JS file for ToDo DocType
+#app_include_js = ["/assets/dora/js/todo.js"]
