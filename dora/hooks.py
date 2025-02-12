@@ -118,11 +118,6 @@ app_license = "MIT"
 
 # Document Events
 # ---------------
-doc_events = {
-    "ToDo": {
-        "on_insert": "dora.todo_custom.on_insert"  # Link to your custom method
-    }
-}
 
 # Scheduled Tasks
 # ---------------
